@@ -12,14 +12,6 @@ let messages = document.querySelectorAll(".message");
 // different state
 let submitState = document.querySelector(".input-submit");
 let completeState = document.querySelector(".completed");
-
-//   let name = document.getElementById("name"); // message[0]
-//   let num = document.getElementById("num"); // message[1]
-//   let month = document.getElementById("exp-month"); // message[2]
-//   let year = document.getElementById("exp-year");
-//   let cvc = document.getElementById("cvc"); // message[3]
-
-console.log(messages);
 let error = false;
 
 input[1].addEventListener("keydown", (e) => {
@@ -96,9 +88,6 @@ form.addEventListener("submit", (e) => {
           if (field.value.length !== 2) {
             errorMsg(messages[ind], "wrong format, must be 2 digits", field);
           }
-          // else{
-          //   showOnCard(field, field.value);
-          // }
         }
       }
 
