@@ -140,7 +140,7 @@ form.addEventListener("submit", (e) => {
     console.log(messages[div].textContent);
     if (error === false && counter === 4) {
       submitState.style.display = "none";
-      completeState.style.display = "block";
+      completeState.style.display = "flex";
     }
   }
 });
