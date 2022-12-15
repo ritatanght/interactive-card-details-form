@@ -95,7 +95,7 @@ section {
 }
 
 #card-num {
-  font-size: calc(1rem + 0.5vw);
+  font-size: 1rem;
   letter-spacing: 0.2vw;
 }
 .card-info .row {
@@ -149,6 +149,7 @@ button {
 }
 
 ::placeholder {
+  font-size: 1rem;
   color: var(--light-grey-violet);
 }
 
