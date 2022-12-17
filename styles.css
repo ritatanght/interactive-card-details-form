@@ -122,7 +122,6 @@ section {
 label {
   text-transform: uppercase;
   font-size: 0.8rem;
-  /* margin-top: 1rem; */
 }
 
 input:not([type="submit"]) {
@@ -291,7 +290,7 @@ button {
     margin-top: 2rem;
   }
 
-  /* remove footer */
+  /* remove footer for mobile view */
   .attribution {
     display: none;
   }
